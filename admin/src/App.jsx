@@ -28,6 +28,9 @@ const App = () => {
         <Sidebar />
         <Routes>
           <Route path='/' element={<></>} />
+          <Route path="/admin" element={<Login />} />
+          <Route path="/doctor" element={<Login />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/admin-dashboard' element={<Dashboard />} />
           <Route path='/all-appointments' element={<AllAppointments />} />
           <Route path='/add-doctor' element={<AddDoctor />} />

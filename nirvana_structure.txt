@@ -1,0 +1,185 @@
+Folder PATH listing for volume OS
+Volume serial number is 9854-5C78
+C:.
+¦   nirvana_structure.txt
+¦   
++---admin
+¦   ¦   .env
+¦   ¦   .eslintrc.cjs
+¦   ¦   .gitignore
+¦   ¦   index.html
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   postcss.config.js
+¦   ¦   README.md
+¦   ¦   tailwind.config.js
+¦   ¦   vercel.json
+¦   ¦   vite.config.js
+¦   ¦   
+¦   +---public
+¦   ¦       favicon.svg
+¦   ¦       vite.svg
+¦   ¦       
+¦   +---src
+¦       ¦   App.jsx
+¦       ¦   index.css
+¦       ¦   main.jsx
+¦       ¦   
+¦       +---assets
+¦       ¦       add_icon.svg
+¦       ¦       admin_logo.svg
+¦       ¦       appointments_icon.svg
+¦       ¦       appointment_icon.svg
+¦       ¦       assets.js
+¦       ¦       cancel_icon.svg
+¦       ¦       doctor_icon.svg
+¦       ¦       earning_icon.svg
+¦       ¦       home_icon.svg
+¦       ¦       list_icon.svg
+¦       ¦       patients_icon.svg
+¦       ¦       patient_icon.svg
+¦       ¦       people_icon.svg
+¦       ¦       tick_icon.svg
+¦       ¦       upload_area.svg
+¦       ¦       
+¦       +---components
+¦       ¦       Navbar.jsx
+¦       ¦       Sidebar.jsx
+¦       ¦       
+¦       +---context
+¦       ¦       AdminContext.jsx
+¦       ¦       AppContext.jsx
+¦       ¦       DoctorContext.jsx
+¦       ¦       
+¦       +---pages
+¦           ¦   Login.jsx
+¦           ¦   
+¦           +---Admin
+¦           ¦       AddDoctor.jsx
+¦           ¦       AllAppointments.jsx
+¦           ¦       Dashboard.jsx
+¦           ¦       DoctorsList.jsx
+¦           ¦       
+¦           +---Doctor
+¦                   DoctorAppointments.jsx
+¦                   DoctorDashboard.jsx
+¦                   DoctorProfile.jsx
+¦                   
++---backend
+¦   ¦   .env
+¦   ¦   .gitignore
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   server.js
+¦   ¦   
+¦   +---config
+¦   ¦       cloudinary.js
+¦   ¦       mongodb.js
+¦   ¦       
+¦   +---controllers
+¦   ¦       adminController.js
+¦   ¦       doctorController.js
+¦   ¦       userController.js
+¦   ¦       
+¦   +---middleware
+¦   ¦       authAdmin.js
+¦   ¦       authDoctor.js
+¦   ¦       authUser.js
+¦   ¦       multer.js
+¦   ¦       
+¦   +---models
+¦   ¦       appointmentModel.js
+¦   ¦       doctorModel.js
+¦   ¦       userModel.js           
+¦   +---routes
+¦           adminRoute.js
+¦           doctorRoute.js
+¦           userRoute.js
+¦           
++---frontend
+    ¦   .env
+    ¦   .eslintrc.cjs
+    ¦   .gitignore
+    ¦   index.html
+    ¦   package-lock.json
+    ¦   package.json
+    ¦   postcss.config.js
+    ¦   README.md
+    ¦   tailwind.config.js
+    ¦   vercel.json
+    ¦   vite.config.js
+    ¦           
+    +---public
+    ¦       favicon.svg
+    ¦       vite.svg
+    ¦       
+    +---src
+        ¦   App.jsx
+        ¦   index.css
+        ¦   main.jsx
+        ¦   
+        +---assets
+        ¦       about_image.png
+        ¦       appointment_img.png
+        ¦       arrow_icon.svg
+        ¦       assets.js
+        ¦       chats_icon.svg
+        ¦       contact_image.png
+        ¦       cross_icon.png
+        ¦       Dermatologist.svg
+        ¦       doc1.png
+        ¦       doc10.png
+        ¦       doc11.png
+        ¦       doc12.png
+        ¦       doc13.png
+        ¦       doc14.png
+        ¦       doc15.png
+        ¦       doc2.png
+        ¦       doc3.png
+        ¦       doc4.png
+        ¦       doc5.png
+        ¦       doc6.png
+        ¦       doc7.png
+        ¦       doc8.png
+        ¦       doc9.png
+        ¦       dropdown_icon.svg
+        ¦       Gastroenterologist.svg
+        ¦       General_physician.svg
+        ¦       group_profiles.png
+        ¦       Gynecologist.svg
+        ¦       header_img.png
+        ¦       info_icon.svg
+        ¦       logo.svg
+        ¦       menu_icon.svg
+        ¦       Neurologist.svg
+        ¦       Pediatricians.svg
+        ¦       profile_pic.png
+        ¦       razorpay_logo.png
+        ¦       stripe_logo.png
+        ¦       upload_area.png
+        ¦       upload_icon.png
+        ¦       verified_icon.svg
+        ¦       
+        +---components
+        ¦       Banner.jsx
+        ¦       Footer.jsx
+        ¦       Header.jsx
+        ¦       Navbar.jsx
+        ¦       RelatedDoctors.jsx
+        ¦       SpecialityMenu.jsx
+        ¦       TopDoctors.jsx
+        ¦       
+        +---context
+        ¦       AppContext.jsx
+        ¦       
+        +---pages
+                About.jsx
+                Appointment.jsx
+                Contact.jsx
+                Doctors.jsx
+                Home.jsx
+                Login.jsx
+                MyAppointments.jsx
+                MyProfile.jsx
+                Verify.jsx
+                

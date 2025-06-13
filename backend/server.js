@@ -7,12 +7,31 @@ import userRouter from "./routes/userRoute.js"
 import doctorRouter from "./routes/doctorRoute.js"
 import adminRouter from "./routes/adminRoute.js"
 
+import cloudinary from "./config/cloudinary.js"; // adjust path if needed
+
+
+
 // app config
 const app = express()
 const port = process.env.PORT || 4000
 connectDB()
+console.log("Cloudinary Name:", process.env.CLOUDINARY_CLOUD_NAME);
 connectCloudinary()
 
+// ...existing code...
+
+app.get("/test-cloudinary", async (req, res) => {
+  try {
+    const result = await cloudinary.uploader.upload(
+      "https://res.cloudinary.com/demo/image/upload/sample.jpg"
+    );
+    res.json({ success: true, result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// ...existing code...
 // middlewares
 app.use(express.json())
 app.use(cors())
