@@ -13,7 +13,7 @@ import cloudinary from "./config/cloudinary.js"; // adjust path if needed
 
 // app config
 const app = express()
-const port = process.env.PORT || https://nirvana-inv5.onrender.com
+const port = process.env.PORT || 4000
 connectDB()
 console.log("Cloudinary Name:", process.env.CLOUDINARY_CLOUD_NAME);
 connectCloudinary()
