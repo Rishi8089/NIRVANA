@@ -63,7 +63,7 @@ const Login = () => {
           : null
         }
         <div className='w-full '>
-          <button onclick="https://nirvana-admin.onrender.com">admin Login</button>
+          
           <p>Email</p>
           <input onChange={(e) => setEmail(e.target.value)} value={email} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="email" required />
         </div>
